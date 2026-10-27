@@ -24,7 +24,6 @@ export function Navbar() {
             </div>
           </div>
           <Link href='/demos' className='text-[15px] text-slate-700 hover:text-slate-900'>Live Demos</Link>
-          <Link href='/how-it-works' className='text-[15px] text-slate-700 hover:text-slate-900'>How It Works</Link>
           <Link href='/about' className='text-[15px] text-slate-700 hover:text-slate-900'>About</Link>
           <Link href='/contact' className='text-[15px] text-slate-700 hover:text-slate-900'>Contact</Link>
           <Link href='/login' className='text-[15px] text-slate-700 hover:text-slate-900'>Login / Demo Dashboard</Link>
@@ -42,7 +41,6 @@ export function Navbar() {
             <Link href='/services/visiting-cards' onClick={() => setOpen(false)} className='py-2 text-slate-700'>Smart Visiting Cards</Link>
             <Link href='/services/product-labels' onClick={() => setOpen(false)} className='py-2 text-slate-700'>Product Label AR</Link>
             <Link href='/demos' onClick={() => setOpen(false)} className='py-2 text-slate-700'>Live Demos</Link>
-            <Link href='/how-it-works' onClick={() => setOpen(false)} className='py-2 text-slate-700'>How It Works</Link>
             <Link href='/about' onClick={() => setOpen(false)} className='py-2 text-slate-700'>About</Link>
             <Link href='/contact' onClick={() => setOpen(false)} className='py-2 text-slate-700'>Contact</Link>
             <Link href='/login' onClick={() => setOpen(false)} className='py-2 text-slate-700'>Login / Demo Dashboard</Link>
