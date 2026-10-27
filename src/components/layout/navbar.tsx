@@ -8,7 +8,7 @@ import { Menu, X } from 'lucide-react'
 export function Navbar() {
   const [open, setOpen] = useState(false)
   return (
-    <header className='border-b border-slate-200/70 sticky top-0 bg-white/95 backdrop-blur-xl z-50'>
+    <header className='border-b border-slate-200/70 sticky top-0 bg-white/95 backdrop-blur-xl z-[100]'>
       <div className='container mx-auto flex h-16 items-center justify-between px-4 max-w-7xl'>
         <Link href='/' className='flex items-center'>
           <img src='/VaveAR Tech Logo Banner.png' alt='VaveAR by Vave TechStack' className='h-9 w-auto object-contain' />
@@ -31,7 +31,7 @@ export function Navbar() {
         </nav>
         <div className='flex items-center gap-2'>
           <Button className='hidden sm:flex bg-gradient-to-r from-cyan-600 to-blue-600' asChild><Link href='/demos'>Experience AR Demos</Link></Button>
-          <button className='lg:hidden p-2' onClick={() => setOpen(!open)} aria-label='Menu'><Menu className='h-5 w-5' /></button>
+          <button className='lg:hidden p-2' onClick={() => setOpen(!open)} aria-label='Menu'>{open ? <X className='h-5 w-5' /> : <Menu className='h-5 w-5' />}</button>
         </div>
       </div>
       {open && (
