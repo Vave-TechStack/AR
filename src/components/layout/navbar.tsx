@@ -1,13 +1,17 @@
+'use client'
+
 import Link from 'next/link'
+import { useState } from 'react'
 import { Button } from '@/components/ui/button'
+import { Menu, X } from 'lucide-react'
 
 export function Navbar() {
+  const [open, setOpen] = useState(false)
   return (
     <header className='border-b border-slate-200/70 sticky top-0 bg-white/95 backdrop-blur-xl z-50'>
       <div className='container mx-auto flex h-16 items-center justify-between px-4 max-w-7xl'>
-        <Link href='/' className='flex items-center gap-2'>
-          <img src='/brand/vavear-icon.svg' alt='VaveAR' className='h-8 w-8' />
-          <img src='/brand/vavear-logo.svg' alt='VaveAR by Vave TechStack' className='h-6 hidden sm:block' />
+        <Link href='/' className='flex items-center'>
+          <img src='/VaveAR Tech Logo Banner.png' alt='VaveAR by Vave TechStack' className='h-9 w-auto object-contain' />
         </Link>
         <nav className='hidden lg:flex items-center gap-7'>
           <Link href='/' className='text-[15px] text-slate-700 hover:text-slate-900'>Home</Link>
@@ -25,8 +29,26 @@ export function Navbar() {
           <Link href='/contact' className='text-[15px] text-slate-700 hover:text-slate-900'>Contact</Link>
           <Link href='/login' className='text-[15px] text-slate-700 hover:text-slate-900'>Login / Demo Dashboard</Link>
         </nav>
-        <Button className='bg-gradient-to-r from-cyan-600 to-blue-600' asChild><Link href='/demos'>Experience AR Demos</Link></Button>
+        <div className='flex items-center gap-2'>
+          <Button className='hidden sm:flex bg-gradient-to-r from-cyan-600 to-blue-600' asChild><Link href='/demos'>Experience AR Demos</Link></Button>
+          <button className='lg:hidden p-2' onClick={() => setOpen(!open)} aria-label='Menu'><Menu className='h-5 w-5' /></button>
+        </div>
       </div>
+      {open && (
+        <div className='lg:hidden border-t border-slate-200 bg-white'>
+          <nav className='container mx-auto px-4 py-3 flex flex-col gap-2'>
+            <Link href='/' onClick={() => setOpen(false)} className='py-2 text-slate-700'>Home</Link>
+            <Link href='/services/wedding-ar' onClick={() => setOpen(false)} className='py-2 text-slate-700'>Wedding Album AR</Link>
+            <Link href='/services/visiting-cards' onClick={() => setOpen(false)} className='py-2 text-slate-700'>Smart Visiting Cards</Link>
+            <Link href='/services/product-labels' onClick={() => setOpen(false)} className='py-2 text-slate-700'>Product Label AR</Link>
+            <Link href='/demos' onClick={() => setOpen(false)} className='py-2 text-slate-700'>Live Demos</Link>
+            <Link href='/how-it-works' onClick={() => setOpen(false)} className='py-2 text-slate-700'>How It Works</Link>
+            <Link href='/about' onClick={() => setOpen(false)} className='py-2 text-slate-700'>About</Link>
+            <Link href='/contact' onClick={() => setOpen(false)} className='py-2 text-slate-700'>Contact</Link>
+            <Link href='/login' onClick={() => setOpen(false)} className='py-2 text-slate-700'>Login / Demo Dashboard</Link>
+          </nav>
+        </div>
+      )}
     </header>
   )
 }

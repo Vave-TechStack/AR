@@ -1,13 +1,10 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { Navbar } from '@/components/layout/navbar'
-import { Footer } from '@/components/layout/footer'
 import { Heart, CreditCard, Package, ArrowRight } from 'lucide-react'
 
 export default function Home() {
   return (
     <div className='min-h-screen bg-white'>
-      <Navbar />
       <main>
         <section className='container mx-auto px-4 py-16 lg:py-24 max-w-7xl'>
           <div className='grid lg:grid-cols-2 gap-12 items-center'>
@@ -31,7 +28,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <Footer />
     </div>
   )
 }
