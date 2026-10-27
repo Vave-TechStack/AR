@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Heart, CreditCard, Package, ArrowRight } from 'lucide-react'
 
-export default function Home() {
+export default function MarketingHome() {
   return (
     <div className='min-h-screen bg-white'>
       <main>
