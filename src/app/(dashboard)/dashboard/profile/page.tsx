@@ -15,7 +15,7 @@ export default function ProfilePage() {
       </header>
       <main className='container mx-auto px-4 py-8 max-w-2xl'>
         <Link href='/dashboard' className='flex items-center gap-2 text-slate-600 hover:text-slate-900 mb-6'><ArrowLeft className='h-4 w-4' />Back to Dashboard</Link>
-        <h1 className='text-[1.5rem] font-bold text-slate-900 mb-6'>Profile</h1>
+        <h1 className='text-[2rem] font-bold text-slate-900 mb-6'>Profile</h1>
         <form className='bg-white rounded-lg border border-slate-200 p-6 space-y-4'>
           <div>
             <label className='block text-sm font-medium text-slate-700 mb-1'>Name</label>
@@ -31,5 +31,6 @@ export default function ProfilePage() {
     </div>
   )
 }
+
 
 

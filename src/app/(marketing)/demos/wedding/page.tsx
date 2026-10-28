@@ -10,7 +10,7 @@ export default function WeddingDemoPage() {
       <main className='container mx-auto px-4 py-12 max-w-6xl'>
         <div className='text-center mb-10'>
           <div className='inline-flex items-center gap-2 px-4 py-2 bg-rose-50 rounded-full mb-4'><Heart className='h-4 w-4 text-rose-600' /><span className='text-sm font-medium text-rose-700'>Wedding Photo-to-Video AR Demo</span></div>
-          <h1 className='text-[1.5rem] font-bold text-slate-900 mb-4'>From Printed Photo to Living Memory</h1>
+          <h1 className='text-[2rem] font-bold text-slate-900 mb-4'>From Printed Photo to Living Memory</h1>
           <p className='text-lg text-slate-600 max-w-2xl mx-auto'>Compare, play and experience the transformation</p>
         </div>
         <div className='mb-12'>
@@ -18,7 +18,7 @@ export default function WeddingDemoPage() {
         </div>
         <div className='grid lg:grid-cols-2 gap-8'>
           <div>
-            <h2 className='text-[1.5rem] font-bold text-slate-900 mb-4'>Sample Video Preview</h2>
+            <h2 className='text-[2rem] font-bold text-slate-900 mb-4'>Sample Video Preview</h2>
             <VideoLightbox src='/videos/wedding-sample-1.mp4' poster='/images/indian-wedding-3.jpg' title='Wedding Memory' />
           </div>
           <div className='border border-slate-200 rounded-2xl overflow-hidden shadow-lg'>
@@ -32,5 +32,6 @@ export default function WeddingDemoPage() {
     </div>
   )
 }
+
 
 

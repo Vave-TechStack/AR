@@ -8,7 +8,7 @@ export default function ProductLabelDemoPage() {
       <main className='container mx-auto px-4 py-12 max-w-6xl'>
         <div className='text-center mb-10'>
           <div className='inline-flex items-center gap-2 px-4 py-2 bg-purple-50 rounded-full mb-4'><Package className='h-4 w-4 text-purple-600' /><span className='text-sm font-medium text-purple-700'>AR Product Label Demo</span></div>
-          <h1 className='text-[1.5rem] font-bold text-slate-900 mb-4'>Packaging That Comes Alive</h1>
+          <h1 className='text-[2rem] font-bold text-slate-900 mb-4'>Packaging That Comes Alive</h1>
           <p className='text-lg text-slate-600'>Interactive hotspots reveal product content</p>
         </div>
         <div className='grid lg:grid-cols-2 gap-8'>
@@ -31,5 +31,6 @@ export default function ProductLabelDemoPage() {
     </div>
   )
 }
+
 
 
