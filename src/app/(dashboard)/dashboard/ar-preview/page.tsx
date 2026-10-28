@@ -15,7 +15,7 @@ export default function ARPreviewPage() {
       </header>
       <main className='container mx-auto px-4 py-8 max-w-7xl'>
         <Link href='/dashboard' className='flex items-center gap-2 text-slate-600 hover:text-slate-900 mb-6'><ArrowLeft className='h-4 w-4' />Back to Dashboard</Link>
-        <h1 className='text-[15px] font-bold text-slate-900 mb-6'>AR Preview</h1>
+        <h1 className='text-[24px] font-bold text-slate-900 mb-6'>AR Preview</h1>
         <div className='bg-black rounded-lg aspect-video flex items-center justify-center mb-4'>
           <div className='text-center text-white'>
             <Camera className='h-16 w-16 mx-auto mb-4' />
@@ -30,3 +30,4 @@ export default function ARPreviewPage() {
     </div>
   )
 }
+

@@ -15,11 +15,11 @@ export default function MyWeddingsPage() {
       </header>
       <main className='container mx-auto px-4 py-8 max-w-7xl'>
         <Link href='/dashboard' className='flex items-center gap-2 text-slate-600 hover:text-slate-900 mb-6'><ArrowLeft className='h-4 w-4' />Back to Dashboard</Link>
-        <h1 className='text-[15px] font-bold text-slate-900 mb-6'>My Weddings/Projects</h1>
+        <h1 className='text-[24px] font-bold text-slate-900 mb-6'>My Weddings/Projects</h1>
         <div className='bg-white rounded-lg border border-slate-200 p-6'>
           <div className='flex items-center justify-between mb-4'>
             <div>
-              <h2 className='text-[15px] font-semibold text-slate-900'>Priya & Rahul — Wedding Memories</h2>
+              <h2 className='text-[24px] font-semibold text-slate-900'>Priya & Rahul — Wedding Memories</h2>
               <p className='text-slate-600'>Wedding Album AR • Status: Published</p>
             </div>
             <div className='flex gap-2'>
@@ -33,3 +33,4 @@ export default function MyWeddingsPage() {
     </div>
   )
 }
+

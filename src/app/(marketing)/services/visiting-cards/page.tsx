@@ -16,7 +16,7 @@ export default function VisitingCardsServicePage() {
       </header>
       <main className='container mx-auto px-4 py-12 max-w-7xl'>
         <div className='mb-10'><div className='inline-flex items-center gap-2 px-3 py-1.5 bg-blue-50 rounded-full mb-3'><CreditCard className='h-4 w-4 text-blue-600' /><span className='text-sm text-blue-700'>Smart Visiting Cards</span></div>
-          <h1 className='text-[15px] font-bold text-slate-900 mb-3'>Interactive AR Business Cards</h1>
+          <h1 className='text-[24px] font-bold text-slate-900 mb-3'>Interactive AR Business Cards</h1>
           <p className='text-[17px] text-slate-600 max-w-2xl'>Video intro, website, contact and actions in one scan.</p>
         </div>
         <div className='grid md:grid-cols-3 gap-4 mb-10'>
@@ -28,3 +28,4 @@ export default function VisitingCardsServicePage() {
     </div>
   )
 }
+

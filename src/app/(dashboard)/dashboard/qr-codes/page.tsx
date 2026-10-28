@@ -16,7 +16,7 @@ export default function QRCodesPage() {
       <main className='container mx-auto px-4 py-8 max-w-7xl'>
         <Link href='/dashboard/my-weddings' className='flex items-center gap-2 text-slate-600 hover:text-slate-900 mb-6'><ArrowLeft className='h-4 w-4' />Back to Project</Link>
         <div className='flex items-center justify-between mb-6'>
-          <h1 className='text-[15px] font-bold text-slate-900'>QR Codes</h1>
+          <h1 className='text-[24px] font-bold text-slate-900'>QR Codes</h1>
           <Button>Generate QR Code</Button>
         </div>
         <div className='bg-white rounded-lg border border-slate-200 p-6'>
@@ -25,7 +25,7 @@ export default function QRCodesPage() {
               <QrCode className='h-24 w-24 text-slate-400' />
             </div>
             <div className='flex-1'>
-              <h2 className='text-[15px] font-semibold text-slate-900 mb-2'>Priya & Rahul — Wedding Memories</h2>
+              <h2 className='text-[24px] font-semibold text-slate-900 mb-2'>Priya & Rahul — Wedding Memories</h2>
               <p className='text-slate-600 mb-4'>Destination: /experience/WED-PR-001</p>
               <p className='text-sm text-slate-500 mb-4'>Dynamic QR - destination can be changed without regenerating</p>
               <div className='flex gap-2'>
@@ -39,3 +39,4 @@ export default function QRCodesPage() {
     </div>
   )
 }
+

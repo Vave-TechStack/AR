@@ -9,11 +9,11 @@ export function AnimatedHero() {
     <section className='relative overflow-hidden'>
       <div className='absolute inset-0 bg-gradient-to-br from-white via-cyan-50/20 to-blue-50/30'></div>
       <div className='absolute -top-40 -right-40 w-96 h-96 bg-gradient-to-r from-cyan-400/20 to-blue-400/20 rounded-full blur-3xl'></div>
-      <div className='container relative mx-auto px-4 py-20 lg:py-28 max-w-7xl'>
+      <div className='container relative mx-auto px-4 py-6 lg:py-12 max-w-7xl'>
         <div className='grid lg:grid-cols-2 gap-16 items-center'>
           <div>
             <div className='inline-flex items-center gap-2 px-4 py-2 bg-cyan-50 rounded-full mb-6'><ScanLine className='h-4 w-4 text-cyan-600' /><span className='text-sm font-medium text-cyan-700'>WebAR Studio</span></div>
-            <h1 className='text-[15px] font-bold text-slate-900 mb-6 leading-[1.05] tracking-tight'>Your Memories Deserve More Than a <span className='bg-gradient-to-r from-cyan-600 via-blue-600 to-indigo-600 bg-clip-text text-transparent'>Photograph.</span></h1>
+            <h1 className='text-[24px] font-bold text-slate-900 mb-6 leading-[1.05] tracking-tight'>Your Memories Deserve More Than a <span className='bg-gradient-to-r from-cyan-600 via-blue-600 to-indigo-600 bg-clip-text text-transparent'>Photograph.</span></h1>
             <p className='text-xl text-slate-600 mb-10 leading-relaxed max-w-xl'>Printed photos, premium visiting cards and product labels become interactive digital experiences - video, links and content right in your browser.</p>
             <div className='flex flex-col sm:flex-row gap-4'>
               <Button size='lg' className='bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-700 hover:to-blue-700 text-lg px-8 h-14 shadow-xl shadow-cyan-500/25' asChild><Link href='/demos'>Experience AR Demos <ArrowRight className='ml-2 h-5 w-5' /></Link></Button>
@@ -36,3 +36,4 @@ export function AnimatedHero() {
     </section>
   )
 }
+

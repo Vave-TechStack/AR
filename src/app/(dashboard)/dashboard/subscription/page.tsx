@@ -15,13 +15,13 @@ export default function SubscriptionPage() {
       </header>
       <main className='container mx-auto px-4 py-8 max-w-7xl'>
         <Link href='/dashboard' className='flex items-center gap-2 text-slate-600 hover:text-slate-900 mb-6'><ArrowLeft className='h-4 w-4' />Back to Dashboard</Link>
-        <h1 className='text-[15px] font-bold text-slate-900 mb-6'>Subscription</h1>
+        <h1 className='text-[24px] font-bold text-slate-900 mb-6'>Subscription</h1>
         <div className='bg-white rounded-lg border border-slate-200 p-6'>
           <div className='flex items-center justify-between mb-4'>
             <div className='flex items-center gap-3'>
               <CreditCard className='h-6 w-6 text-blue-600' />
               <div>
-                <h2 className='text-[15px] font-semibold text-slate-900'>Free Plan</h2>
+                <h2 className='text-[24px] font-semibold text-slate-900'>Free Plan</h2>
                 <p className='text-slate-600'>3 Projects • 100 MB Storage</p>
               </div>
             </div>
@@ -33,3 +33,4 @@ export default function SubscriptionPage() {
     </div>
   )
 }
+
