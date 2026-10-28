@@ -12,7 +12,7 @@ export default function FeaturesPage() {
         </div>
       </header>
       <main className='container mx-auto px-4 py-16'>
-        <h1 className='text-4xl font-bold text-slate-900 mb-4'>Features</h1>
+        <h1 className='text-3xl font-bold text-slate-900 mb-4'>Features</h1>
         <p className='text-slate-600'>Image tracking, QR codes, 3D models, analytics.</p>
       </main>
     </div>

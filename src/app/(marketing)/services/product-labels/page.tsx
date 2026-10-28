@@ -16,7 +16,7 @@ export default function ProductLabelsServicePage() {
       </header>
       <main className='container mx-auto px-4 py-12 max-w-7xl'>
         <div className='mb-10'><div className='inline-flex items-center gap-2 px-3 py-1.5 bg-purple-50 rounded-full mb-3'><Package className='h-4 w-4 text-purple-600' /><span className='text-sm text-purple-700'>AR Product Labels</span></div>
-          <h1 className='text-[clamp(2rem,5vw,3rem)] font-bold text-slate-900 mb-3'>Interactive Product Packaging</h1>
+          <h1 className='text-[clamp(1.75rem,5vw,2.5rem)] font-bold text-slate-900 mb-3'>Interactive Product Packaging</h1>
           <p className='text-[17px] text-slate-600 max-w-2xl'>3D models, videos and product info on scan.</p>
         </div>
         <div className='grid md:grid-cols-3 gap-4'>

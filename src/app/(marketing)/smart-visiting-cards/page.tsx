@@ -17,7 +17,7 @@ export default function SmartVisitingCardsPage() {
       <main className='container mx-auto px-4 py-16 max-w-7xl'>
         <div className='max-w-3xl mx-auto text-center mb-12'>
           <CreditCard className='h-16 w-16 mx-auto mb-4 text-blue-600' />
-          <h1 className='text-4xl md:text-5xl font-bold text-slate-900 mb-4'>Smart Visiting Cards</h1>
+          <h1 className='text-3xl md:text-4xl font-bold text-slate-900 mb-4'>Smart Visiting Cards</h1>
           <p className='text-lg text-slate-600'>Turn business cards into interactive AR experiences with contact details and portfolio</p>
         </div>
         <div className='bg-slate-50 rounded-xl p-8 mb-12'>

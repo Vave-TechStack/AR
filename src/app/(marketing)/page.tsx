@@ -10,7 +10,7 @@ export default function MarketingHome() {
         <AnimatedHero />
         <section className='container mx-auto px-4 py-20 max-w-7xl'>
           <div className='text-center mb-16'>
-            <h2 className='text-[clamp(2rem,5vw,3.5rem)] font-bold text-slate-900 mb-4'>A Photo Is Only The Beginning</h2>
+            <h2 className='text-[clamp(1.75rem,5vw,2.75rem)] font-bold text-slate-900 mb-4'>A Photo Is Only The Beginning</h2>
             <p className='text-xl text-slate-600 max-w-2xl mx-auto'>Three immersive ways to bring your printed media to life</p>
           </div>
           <div className='grid md:grid-cols-3 gap-8'>
@@ -29,7 +29,7 @@ export default function MarketingHome() {
           </div>
         </section>
         <section className='bg-gradient-to-r from-cyan-600 to-blue-600 py-16 text-center text-white'>
-          <div className='container mx-auto px-4'><h2 className='text-3xl md:text-4xl font-bold mb-4'>Ready to Bring Your Media to Life?</h2><p className='text-xl opacity-90 mb-8'>Experience our live AR demos today</p><Button size='lg' variant='secondary' asChild><Link href='/demos'>Explore Live Demos</Link></Button></div>
+          <div className='container mx-auto px-4'><h2 className='text-2xl md:text-3xl font-bold mb-4'>Ready to Bring Your Media to Life?</h2><p className='text-xl opacity-90 mb-8'>Experience our live AR demos today</p><Button size='lg' variant='secondary' asChild><Link href='/demos'>Explore Live Demos</Link></Button></div>
         </section>
       </main>
     </div>

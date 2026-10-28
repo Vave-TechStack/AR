@@ -16,7 +16,7 @@ export default function WeddingARServicePage() {
       </header>
       <main className='container mx-auto px-4 py-12 max-w-7xl'>
         <div className='mb-10'><div className='inline-flex items-center gap-2 px-3 py-1.5 bg-rose-50 rounded-full mb-3'><Heart className='h-4 w-4 text-rose-600' /><span className='text-sm text-rose-700'>Wedding Album AR</span></div>
-          <h1 className='text-[clamp(2rem,5vw,3rem)] font-bold text-slate-900 mb-3'>Wedding Photo-to-Video AR</h1>
+          <h1 className='text-[clamp(1.75rem,5vw,2.5rem)] font-bold text-slate-900 mb-3'>Wedding Photo-to-Video AR</h1>
           <p className='text-[17px] text-slate-600 max-w-2xl'>Bring printed wedding photos to life with video memories.</p>
         </div>
         <div className='grid md:grid-cols-3 gap-4 mb-10'>

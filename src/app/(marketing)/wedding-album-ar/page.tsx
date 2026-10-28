@@ -17,7 +17,7 @@ export default function WeddingAlbumARPage() {
       <main className='container mx-auto px-4 py-16 max-w-7xl'>
         <div className='max-w-3xl mx-auto text-center mb-12'>
           <BookOpen className='h-16 w-16 mx-auto mb-4 text-cyan-600' />
-          <h1 className='text-4xl md:text-5xl font-bold text-slate-900 mb-4'>Wedding Album AR</h1>
+          <h1 className='text-3xl md:text-4xl font-bold text-slate-900 mb-4'>Wedding Album AR</h1>
           <p className='text-lg text-slate-600'>Bring wedding memories to life with interactive augmented reality experiences</p>
         </div>
         <div className='bg-slate-50 rounded-xl p-8 mb-12'>
