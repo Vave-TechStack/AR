@@ -1,8 +1,6 @@
-import { defineConfig } from '@opennextjs/cloudflare'
-
-export default defineConfig({
+export default {
   images: {
     domains: [],
     remotePatterns: [],
   },
-})
+}
