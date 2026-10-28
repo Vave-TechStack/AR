@@ -9,7 +9,7 @@ export default function LoginPage() {
         <Link href='/' className='inline-flex items-center gap-2 text-slate-600 hover:text-slate-900 mb-6'><ArrowLeft className='h-4 w-4' />Back to Website</Link>
         <div className='text-center mb-6'>
           <img src='/VaveAR Tech Logo Banner.png' alt='VaveAR' className='h-10 mx-auto mb-4 object-contain' />
-          <h1 className='text-2xl font-bold text-slate-900 mb-2'>Demo Login</h1>
+          <h1 className='text-[15px] font-bold text-slate-900 mb-2'>Demo Login</h1>
           <p className='text-slate-600'>Use sample credentials for demo access</p>
         </div>
         <div className='mb-4 p-3 bg-blue-50 rounded-lg border border-blue-200'>

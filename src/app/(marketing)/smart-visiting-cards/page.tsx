@@ -17,11 +17,11 @@ export default function SmartVisitingCardsPage() {
       <main className='container mx-auto px-4 py-16 max-w-7xl'>
         <div className='max-w-3xl mx-auto text-center mb-12'>
           <CreditCard className='h-16 w-16 mx-auto mb-4 text-blue-600' />
-          <h1 className='text-3xl md:text-4xl font-bold text-slate-900 mb-4'>Smart Visiting Cards</h1>
+          <h1 className='text-[15px] font-bold text-slate-900 mb-4'>Smart Visiting Cards</h1>
           <p className='text-lg text-slate-600'>Turn business cards into interactive AR experiences with contact details and portfolio</p>
         </div>
         <div className='bg-slate-50 rounded-xl p-8 mb-12'>
-          <h2 className='text-2xl font-semibold text-slate-900 mb-4'>Demo: TechVision Solutions</h2>
+          <h2 className='text-[15px] font-semibold text-slate-900 mb-4'>Demo: TechVision Solutions</h2>
           <p className='text-slate-600 mb-6'>Scan the visiting card to reveal contact info, website, and portfolio</p>
           <div className='aspect-video bg-white rounded-lg border flex items-center justify-center'>
             <p className='text-slate-500'>AR Preview - Demo Sample</p>

@@ -18,7 +18,7 @@ export default function ImageTargetsPage() {
       <main className='container mx-auto px-4 py-8 max-w-7xl'>
         <Link href='/dashboard/my-weddings' className='flex items-center gap-2 text-slate-600 hover:text-slate-900 mb-6'><ArrowLeft className='h-4 w-4' />Back to Project</Link>
         <div className='flex items-center justify-between mb-6'>
-          <h1 className='text-3xl font-bold text-slate-900'>Image Targets</h1>
+          <h1 className='text-[15px] font-bold text-slate-900'>Image Targets</h1>
           <Button><Upload className='h-4 w-4 mr-2' />Upload Targets</Button>
         </div>
         <p className='text-slate-600 mb-6'>Priya & Rahul — Wedding Memories • 30 sample image-target records</p>
