@@ -14,11 +14,12 @@ export default function TermsPage() {
         </div>
       </header>
       <main className='container mx-auto px-4 py-16 max-w-4xl'>
-        <h1 className='text-[24px] font-bold text-slate-900 mb-6'>Terms of Service</h1>
+        <h1 className='text-[1.5rem] font-bold text-slate-900 mb-6'>Terms of Service</h1>
         <p className='text-slate-600 mb-4'>Last updated: 2026</p>
         <p className='text-slate-700'>This is a demo/terms placeholder for VaveAR by Vave TechStack.</p>
       </main>
     </div>
   )
 }
+
 

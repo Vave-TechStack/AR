@@ -21,25 +21,25 @@ export default function SolutionsPage() {
       </header>
       <main className='container mx-auto px-4 py-16 max-w-7xl'>
         <div className='text-center mb-12'>
-          <h1 className='text-[24px] font-bold text-slate-900 mb-4'>AR Solutions</h1>
+          <h1 className='text-[1.5rem] font-bold text-slate-900 mb-4'>AR Solutions</h1>
           <p className='text-lg text-slate-600'>Choose the perfect WebAR solution for your use case</p>
         </div>
         <div className='grid md:grid-cols-3 gap-8'>
           <Link href='/wedding-album-ar' className='p-6 border border-slate-200 rounded-xl hover:shadow-lg transition-shadow bg-white'>
             <BookOpen className='h-12 w-12 mb-4 text-cyan-600' />
-            <h2 className='text-[24px] font-semibold text-slate-900 mb-2'>Wedding Album AR</h2>
+            <h2 className='text-[1.5rem] font-semibold text-slate-900 mb-2'>Wedding Album AR</h2>
             <p className='text-slate-600 mb-4'>Bring wedding memories to life with interactive AR overlays</p>
             <span className='text-blue-600 font-medium'>Learn More →</span>
           </Link>
           <Link href='/smart-visiting-cards' className='p-6 border border-slate-200 rounded-xl hover:shadow-lg transition-shadow bg-white'>
             <CreditCard className='h-12 w-12 mb-4 text-blue-600' />
-            <h2 className='text-[24px] font-semibold text-slate-900 mb-2'>Smart Visiting Cards</h2>
+            <h2 className='text-[1.5rem] font-semibold text-slate-900 mb-2'>Smart Visiting Cards</h2>
             <p className='text-slate-600 mb-4'>Turn business cards into interactive AR experiences</p>
             <span className='text-blue-600 font-medium'>Learn More →</span>
           </Link>
           <Link href='/ar-product-labels' className='p-6 border border-slate-200 rounded-xl hover:shadow-lg transition-shadow bg-white'>
             <Layers className='h-12 w-12 mb-4 text-cyan-600' />
-            <h2 className='text-[24px] font-semibold text-slate-900 mb-2'>AR Product Labels</h2>
+            <h2 className='text-[1.5rem] font-semibold text-slate-900 mb-2'>AR Product Labels</h2>
             <p className='text-slate-600 mb-4'>Enhance product packaging with 3D models and animations</p>
             <span className='text-blue-600 font-medium'>Learn More →</span>
           </Link>
@@ -48,4 +48,5 @@ export default function SolutionsPage() {
     </div>
   )
 }
+
 

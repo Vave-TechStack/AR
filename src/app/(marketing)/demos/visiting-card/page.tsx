@@ -8,7 +8,7 @@ export default function VisitingCardDemoPage() {
       <main className='container mx-auto px-4 py-12 max-w-5xl'>
         <div className='text-center mb-10'>
           <div className='inline-flex items-center gap-2 px-4 py-2 bg-blue-50 rounded-full mb-4'><CreditCard className='h-4 w-4 text-blue-600' /><span className='text-sm font-medium text-blue-700'>Smart Visiting Card Demo</span></div>
-          <h1 className='text-[24px] font-bold text-slate-900 mb-4'>Flip to Reveal Your Digital Profile</h1>
+          <h1 className='text-[1.5rem] font-bold text-slate-900 mb-4'>Flip to Reveal Your Digital Profile</h1>
           <p className='text-lg text-slate-600'>Fictional demo data only</p>
         </div>
         <div className='grid md:grid-cols-2 gap-8'>
@@ -28,4 +28,5 @@ export default function VisitingCardDemoPage() {
     </div>
   )
 }
+
 

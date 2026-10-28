@@ -25,7 +25,7 @@ export default function AdminPage() {
         </div>
       </header>
       <main className='container mx-auto px-4 py-8 max-w-7xl'>
-        <h1 className='text-[24px] font-bold text-slate-900 mb-8'>Admin Dashboard</h1>
+        <h1 className='text-[1.5rem] font-bold text-slate-900 mb-8'>Admin Dashboard</h1>
         <div className='grid md:grid-cols-5 gap-4 mb-8'>
           <div className='p-4 bg-white rounded-lg border border-slate-200'><Users className='h-5 w-5 text-slate-400 mb-2' /><p className='text-slate-600 text-sm'>Customers</p><p className='text-2xl font-bold text-slate-900'>12</p></div>
           <div className='p-4 bg-white rounded-lg border border-slate-200'><FolderOpen className='h-5 w-5 text-slate-400 mb-2' /><p className='text-slate-600 text-sm'>Projects</p><p className='text-2xl font-bold text-slate-900'>15</p></div>
@@ -41,4 +41,5 @@ export default function AdminPage() {
     </div>
   )
 }
+
 

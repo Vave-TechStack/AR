@@ -15,7 +15,7 @@ export default function HowItWorksPage() {
       </header>
       <main className='container mx-auto px-4 py-16 max-w-5xl'>
         <div className='text-center mb-12'>
-          <h1 className='text-[24px] font-bold text-slate-900 mb-4'>How It Works</h1>
+          <h1 className='text-[1.5rem] font-bold text-slate-900 mb-4'>How It Works</h1>
           <p className='text-lg text-slate-600'>Our simple process from concept to deployment</p>
         </div>
         <div className='grid md:grid-cols-4 gap-6'>
@@ -28,4 +28,5 @@ export default function HowItWorksPage() {
     </div>
   )
 }
+
 

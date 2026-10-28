@@ -27,7 +27,7 @@ export default function DashboardPage() {
       </aside>
       <main className='flex-1'>
         <header className='bg-white border-b border-slate-200 px-6 py-4'>
-          <h1 className='text-[24px] font-bold text-slate-900'>Demo Dashboard</h1>
+          <h1 className='text-[1.5rem] font-bold text-slate-900'>Demo Dashboard</h1>
           <p className='text-slate-600'>Sample data for demonstration purposes</p>
         </header>
         <div className='p-6'>
@@ -50,4 +50,5 @@ export default function DashboardPage() {
     </div>
   )
 }
+
 

@@ -16,7 +16,7 @@ export default function DemoGalleryPage() {
       </header>
       <main className='container mx-auto px-4 py-16 max-w-7xl'>
         <div className='text-center mb-12'>
-          <h1 className='text-[24px] font-bold text-slate-900 mb-4'>Demo Gallery</h1>
+          <h1 className='text-[1.5rem] font-bold text-slate-900 mb-4'>Demo Gallery</h1>
           <p className='text-lg text-slate-600'>Explore sample WebAR experiences</p>
         </div>
         <div className='grid md:grid-cols-3 gap-6'>
@@ -55,4 +55,5 @@ export default function DemoGalleryPage() {
     </div>
   )
 }
+
 
